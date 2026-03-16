@@ -1,0 +1,4 @@
+1. total log records counted
+2. top HTTP methods analysis
+3. status code error analysis
+4. data saved in Parquet format

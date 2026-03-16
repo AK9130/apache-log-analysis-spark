@@ -1,0 +1,4 @@
+Dataset Name: Apache access.log
+Total Rows: 1569898
+Dataset Type: Web Server Log
+Project: Apache Log Analysis using Spark
