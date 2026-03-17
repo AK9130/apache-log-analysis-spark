@@ -26,5 +26,5 @@ This project analyzes Apache web server logs using PySpark to extract insights s
 #How to Run
 
 ```bash
-cd spark_log_analysis
+cd spark_scripts
 spark-submit log_analysis.py
