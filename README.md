@@ -8,7 +8,7 @@ This project analyzes Apache web server logs using PySpark to extract insights s
 .
 ├── data_sets
 │   └── Apache_web_log
-│       └── access.
+│       └── access.log
 ├── docs
 │   ├── analysis_screenshots
 │   │   ├── method_count1.png
