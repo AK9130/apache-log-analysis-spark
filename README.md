@@ -7,12 +7,19 @@ This project analyzes Apache web server logs using PySpark to extract insights s
 
 .
 ├── data_sets
+
 │   └── Apache_web_log
-│       └── access.log
+
+│       └── access.
+
 ├── docs
+
 │   ├── analysis_screenshots
+
 │   │   ├── method_count1.png
+
 │   │   ├── parquet_save1.png
+
 │   │   ├── spark_output1.png
 │   │   ├── status_code_analysis1.png
 │   │   └── total_count1.png
