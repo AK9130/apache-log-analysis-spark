@@ -20,20 +20,34 @@ This project analyzes Apache web server logs using PySpark to extract insights s
 
 │   │   ├── parquet_save1.png
 
-│   │   ├── spark_output1.png
+│   │   ├── spark_output1.
+
 │   │   ├── status_code_analysis1.png
+
 │   │   └── total_count1.png
+
 │   ├── dataset_info.txt
+
 │   └── results_summary.txt
+
 ├── output
+
 │   └── log_analysis_parquet
+
 │       ├── part-00000-0ae17b30-5a69-42d8-b278-24affb4f117d-c000.snappy.parquet
+
 │       ├── part-00001-0ae17b30-5a69-42d8-b278-24affb4f117d-c000.snappy.parquet
+
 │       ├── part-00002-0ae17b30-5a69-42d8-b278-24affb4f117d-c000.snappy.parquet
+
 │       ├── part-00003-0ae17b30-5a69-42d8-b278-24affb4f117d-c000.snappy.parquet
+
 │       └── _SUCCESS
+
 ├── README.md
+
 └── spark_scripts
+
     └── log_analysis.py
     
 
