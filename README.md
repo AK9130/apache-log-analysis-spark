@@ -4,6 +4,7 @@
 This project analyzes Apache web server logs using PySpark to extract insights such as HTTP methods, status codes, request patterns, and overall traffic analysis.
 
 #Project Structure
+
 .
 ├── data_sets
 │   └── Apache_web_log
@@ -27,6 +28,7 @@ This project analyzes Apache web server logs using PySpark to extract insights s
 ├── README.md
 └── spark_scripts
     └── log_analysis.py
+    
 
 #Technologies Used
 - Python
