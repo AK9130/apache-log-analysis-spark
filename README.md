@@ -187,6 +187,5 @@ The project provided practical experience in regular expression-based log parsin
 
 ## 13. How to Run
 ```bash
-cd spark_scripts
 spark-submit log_analysis.py
 ```
