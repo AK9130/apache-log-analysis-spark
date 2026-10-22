@@ -9,7 +9,7 @@ log_file = "file:///home/aaqib/PROJECTS/1_Apache_Log_Analysis_Using_Spark/data_s
 
 df = spark.read.text(log_file)
 
-pattern = r'(\S+) - - \[(.*?)\] "(\S+) (.*?) .*?" (\d+) (\d+)'
+pattern = r'(\S+) - - \[(.*?)\] "(\S+) (.*?) .*?" (\d+) (\d+|-)'
 
 df_parsed = df.select(
     regexp_extract('value', pattern, 1).alias('ip'),
