@@ -59,15 +59,15 @@ Structured DataFrame
        v
 Remove Unparsed Lines
        |
+       v
+  Total Records Count
+       |
        +----------------------+
        |                      |
        v                      v
 HTTP Method Analysis    Status Code Analysis
        |                      |
        +----------+-----------+
-                  |
-                  v
-          Total Records Count
                   |
                   v
           Save Data as Parquet
@@ -82,9 +82,9 @@ The project is implemented using PySpark.
 3. Extract relevant information from each log record (IP, timestamp, method, URL, status, bytes).
 4. Convert the parsed data into a structured DataFrame.
 5. Remove log lines that did not match the regex pattern.
-6. Analyze HTTP methods.
-7. Analyze HTTP status codes.
-8. Calculate the total number of records.
+6. Calculate the total number of records.
+7. Analyze HTTP methods.
+8. Analyze HTTP status codes.
 9. Save the processed data in Parquet format.
 
 The main PySpark script is:
@@ -168,8 +168,6 @@ docs/analysis_screenshots/
 ```
 
 Available screenshots include:
-
-### Screenshots
 
 **1. Spark Output**
 
