@@ -169,11 +169,37 @@ docs/analysis_screenshots/
 
 Available screenshots include:
 
-* `01_spark_output.png`
-* `02_total_count.png`
-* `03_method_count.png`
-* `04_status_code_analysis.png`
-* `05_parquet_save.png`
+### Screenshots
+
+**1. Spark Output**
+
+`01_spark_output.png`
+
+![Spark Output](docs/analysis_screenshots/01_spark_output.png)
+
+**2. Total Records Count**
+
+`02_total_count.png`
+
+![Total Count](docs/analysis_screenshots/02_total_count.png)
+
+**3. HTTP Method Count**
+
+`03_method_count.png`
+
+![Method Count](docs/analysis_screenshots/03_method_count.png)
+
+**4. Status Code Analysis**
+
+`04_status_code_analysis.png`
+
+![Status Code Analysis](docs/analysis_screenshots/04_status_code_analysis.png)
+
+**5. Parquet Save**
+
+`05_parquet_save.png`
+
+![Parquet Save](docs/analysis_screenshots/05_parquet_save.png)
 
 ## 10. Challenges & Learning
 ### Challenges
