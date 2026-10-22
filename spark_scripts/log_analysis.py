@@ -5,7 +5,7 @@ spark = SparkSession.builder \
     .appName("Apache Log Analysis") \
     .getOrCreate()
 
-log_file = "file:///home/aaqib/PROJECTS/1_Apache_Log_Analysis_Using_Spark/data_sets/access.log"
+log_file = "file:///home/aaqib/PROJECTS/1_Apache_Log_Analysis_Using_Spark/data_sets/Apache_web_log/access.log"
 
 df = spark.read.text(log_file)
 
