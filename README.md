@@ -201,11 +201,11 @@ Through this project, I gained practical experience in:
 │       └── access.log
 ├── docs
 │   ├── analysis_screenshots
-│   │   ├── method_count1.png
-│   │   ├── parquet_save1.png
-│   │   ├── spark_output1.png
-│   │   ├── status_code_analysis1.png
-│   │   ├── total_count1.png
+│   │   ├── 01_spark_output.png
+│   │   ├── 02_total_count.png
+│   │   ├── 03_mathod_count.png
+│   │   ├── 04_status_code_analysis.png
+│   │   ├── 05_parquet_save.png
 │   └── dataset_info.txt
 ├── output
 │   └── log_analysis_parquet
