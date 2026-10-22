@@ -20,6 +20,10 @@ df_parsed = df.select(
     regexp_extract('value', pattern, 6).alias('bytes')
 )
 
+print("Empty IP rows:", df_parsed.filter(df_parsed.ip == "").count())
+
+df_parsed = df_parsed.filter(df_parsed.ip != "")
+
 df_parsed.show(5, False)
 print("Total Records:", df_parsed.count())
 
