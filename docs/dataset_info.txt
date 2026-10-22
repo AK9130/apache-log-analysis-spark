@@ -1,4 +1,16 @@
 Dataset Name: Apache access.log
-Total Rows: 1569898
 Dataset Type: Web Server Log
 Project: Apache Log Analysis using Spark
+File Size: ~168 MB
+
+Total Rows (lines in file): 1,569,898
+Parsed Rows (matched regex): 1,568,097
+Unparsed Rows (removed): 1,801
+
+Extracted Fields:
+- ip
+- timestamp
+- method
+- url
+- status
+- bytes
