@@ -203,7 +203,7 @@ Through this project, I gained practical experience in:
 │   ├── analysis_screenshots
 │   │   ├── 01_spark_output.png
 │   │   ├── 02_total_count.png
-│   │   ├── 03_mathod_count.png
+│   │   ├── 03_method_count.png
 │   │   ├── 04_status_code_analysis.png
 │   │   ├── 05_parquet_save.png
 │   └── dataset_info.txt
